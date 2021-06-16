@@ -390,3 +390,33 @@ Processing by StaticPagesController#current_time as HTML
 Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4868)
 
 
+Started GET "/aktualny_czas" for ::1 at 2021-06-16 13:24:34 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.4ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3878)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 4962)
+
+
+Started GET "/privacy" for ::1 at 2021-06-16 13:24:36 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.4ms | Allocations: 162)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4213)
+Completed 200 OK in 10ms (Views: 7.2ms | Allocations: 9516)
+
+
+Started GET "/aktualny_czas" for ::1 at 2021-06-16 13:24:38 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3527)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 3905)
+
+
