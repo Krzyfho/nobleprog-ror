@@ -351,3 +351,42 @@ Processing by StaticPagesController#privacy as HTML
 Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3830)
 
 
+Started GET "/privacy" for ::1 at 2021-06-16 12:58:54 +0000
+Processing by StaticPagesController#privacy as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2305)
+
+
+  
+NameError (uninitialized constant StaticPagesController::Faker):
+  
+app/controllers/static_pages_controller.rb:8:in `privacy'
+Started GET "/privacy" for ::1 at 2021-06-16 12:59:25 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.7ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 5698)
+Completed 200 OK in 1308ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 1026163)
+
+
+Started GET "/aktualny_czas" for ::1 at 2021-06-16 13:05:01 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.5ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3719)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4810)
+
+
+Started GET "/aktualny_czas" for ::1 at 2021-06-16 13:08:46 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.5ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3784)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4868)
+
+
